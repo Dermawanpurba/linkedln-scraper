@@ -1,0 +1,54 @@
+{
+  "catatan": "Panduan: Cukup isi 'linkedin_email' dan 'linkedin_password'. Scraper akan login otomatis dan menyimpan sesi secara lokal.",
+  
+  "pencarian": {
+    "target_minimal_data": 30,
+    "daftar_kata_kunci_pertambangan": [
+      "loker mine planner",
+      "loker planner tambang",
+      "hiring mine planner",
+      "maintenance planner tambang",
+      "lowongan planner mining",
+      "planner alat berat tambang",
+      "short term planner tambang",
+      "planner nikel",
+      "planner batubara"
+    ],
+    "kata_kunci_utama": "planner",
+    "lokasi": "Indonesia",
+    "kata_kunci_tambahan_query": "mining OR nikel OR batubara OR \"alat berat\"",
+    "urutkan_berdasarkan": "date_posted",
+    "wajib_sektor_tambang": true,
+    "hanya_yang_ada_kontak_email_atau_hp": true,
+    "filter_kata_loker": [
+      "hiring",
+      "lowongan",
+      "loker",
+      "recruitment",
+      "rekrutmen",
+      "dibutuhkan",
+      "join our team",
+      "we are hiring",
+      "open position",
+      "apply",
+      "kirim cv",
+      "send your cv",
+      "kualifikasi",
+      "requirements"
+    ]
+  },
+
+  "pengaturan_browser": {
+    "tampilkan_browser": false,
+    "maksimal_scroll": 15,
+    "jeda_detik_per_scroll": 2.5,
+    "timeout_halaman_detik": 45
+  },
+
+  "ekspor": {
+    "simpan_ke_excel": true,
+    "simpan_ke_sqlite": true,
+    "nama_file_excel": "kontak_loker_planner_tambang.xlsx",
+    "nama_file_database": "database_loker_tambang.sqlite"
+  }
+}

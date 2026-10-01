@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/
+
+# Environment Variables & LinkedIn Sessions (CRITICAL SECURITY)
+.env
+.env.local
+sesi_linkedin.json
+*.session
+
+# Local SQLite databases & Exported files (scraped data)
+*.sqlite
+*.sqlite3
+*.db
+*.xlsx
+*.csv
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
